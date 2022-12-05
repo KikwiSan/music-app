@@ -1,0 +1,61 @@
+
+
+.songsList{
+    margin: 10px 10px 10px 10px;
+    overflow: auto;
+}
+
+.songsList img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+
+.song{
+    margin-top: 10px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.active_song{
+    margin-top: 10px;
+    padding: 15px 15px 15px 20px;
+    background-color: #BABAB4;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.song:hover{
+    background-color: #DBDBD2;
+}
+
+.active_song:hover{
+    background-color: #DBDBD2;
+}
+
+.title{
+    float: left;
+    width: 60%;
+    font-weight: bold;
+}
+
+.songWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(112, 112, 112, 0.787);
+    border-radius: 10px;
+    border: transparent
+}

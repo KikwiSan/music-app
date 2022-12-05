@@ -1,5 +1,6 @@
 .player_container {
-    width: 50%;
+    width: 80%;
+    height: 80%;
     padding: 1rem;
     border: 1px solid #8d8d8d;
     border-radius: 10px;
@@ -15,7 +16,7 @@
     color: #cacaca;
 }
 .player_container .title {
-    font-size: inherit;
+    font-size: 1.5rem;
 }
 .player_container .navigation {
     width: 100%;
@@ -30,7 +31,7 @@
 .player_container .navigation .navigation_wrapper .seek_bar {
     width: 0;
     height: 100%;
-    background-color: #188003;
+    background-color: white;
     border-radius: 30px;
 }
 .player_container .controls {
@@ -39,7 +40,7 @@
     align-items: center;
 }
 .player_container .controls .btn_action {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -48,4 +49,8 @@
 }
 .player_container .controls .pp {
     font-size: 4rem;
+}
+
+.image{
+    width: 43%;
 }
