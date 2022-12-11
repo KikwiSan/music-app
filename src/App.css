@@ -14,7 +14,9 @@
 }
 
 .list_wrapper{
+    width: 30%;
     overflow: auto;
+
 }
 
 .player_wrapper{

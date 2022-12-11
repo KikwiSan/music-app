@@ -1,8 +1,7 @@
-
-
 .songsList{
     margin: 10px 10px 10px 10px;
     overflow: auto;
+    box-shadow: inherit;
 }
 
 .songsList img {
@@ -44,6 +43,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+input[type=text] {
+    width: 92%;
+    height: 30px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 13px;
 }
 
 *::-webkit-scrollbar {

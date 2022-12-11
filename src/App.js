@@ -7,7 +7,6 @@ function App() {
     const [songs, setSongs] = useState(songsdata);
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentSong, setCurrentSong] = useState(songsdata[0]);
-
     const audioElem = useRef();
 
     const onPlaying = () => {
