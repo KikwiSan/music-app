@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac95387d.css",
-    "main.js": "/static/js/main.05735c40.js",
-    "index.html": "/index.html",
-    "main.ac95387d.css.map": "/static/css/main.ac95387d.css.map",
-    "main.05735c40.js.map": "/static/js/main.05735c40.js.map"
+    "main.css": "/music-app/static/css/main.ac95387d.css",
+    "main.js": "/music-app/static/js/main.05735c40.js",
+    "index.html": "/music-app/index.html",
+    "main.ac95387d.css.map": "/music-app/static/css/main.ac95387d.css.map",
+    "main.05735c40.js.map": "/music-app/static/js/main.05735c40.js.map"
   },
   "entrypoints": [
     "static/css/main.ac95387d.css",
