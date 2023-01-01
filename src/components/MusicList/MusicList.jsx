@@ -6,7 +6,10 @@ const MusicList = ({audioElem, songs, currentSong, setCurrentSong, setIsPlaying}
         if (song.title !== currentSong.title) {
             //setCurrentSong(song);
             setCurrentSong({...song, "progress": 0});
-            setIsPlaying(false);
+            setTimeout(function () {
+                audioElem.current.play();
+                setIsPlaying(true);
+            }, 10);
         }
     }
 

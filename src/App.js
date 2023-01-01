@@ -22,7 +22,10 @@ function App() {
         const index = songs.findIndex(x => x.title === currentSong.title);
         setCurrentSong({...songs[(index + 1) % songs.length], "progress": 0});
         audioElem.current.currentTime = 0;
-        setIsPlaying(false);
+        setTimeout(function () {
+            audioElem.current.play();
+            setIsPlaying(true);
+        }, 100);
     }
 
   return (

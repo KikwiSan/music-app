@@ -27,14 +27,20 @@ const Player = ({songs, audioElem, isPlaying ,setIsPlaying, currentSong, setCurr
             setCurrentSong({...songs[index - 1], "progress": 0});
         }
         audioElem.current.currentTime = 0;
-        setIsPlaying(false);
+        setTimeout(function () {
+            audioElem.current.play();
+            setIsPlaying(true);
+        }, 10);
     }
 
     const skipNext = () => {
         const index = songs.findIndex(x => x.title === currentSong.title);
         setCurrentSong({...songs[(index + 1) % songs.length], "progress": 0});
         audioElem.current.currentTime = 0;
-        setIsPlaying(false);
+        setTimeout(function () {
+            audioElem.current.play();
+            setIsPlaying(true);
+        }, 10);
     }
 
     const getTime = (time) => {
